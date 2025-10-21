@@ -1,7 +1,7 @@
 // --- URL Params ---
 const urlParams = new URLSearchParams(window.location.search);
-const galaxyId = urlParams.get('id');
-const isDemo = urlParams.get('demo') === '1';
+const galaxyId = 1;
+const isDemo = 1;
 
 // --- Demo Data ---
 const demoGalaxyDataDefault = {
